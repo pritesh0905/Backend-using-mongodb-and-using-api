@@ -13,7 +13,7 @@ const bcrypt=require('bcryptjs')
 const app=express()
 app.use(cors());
 app.use(express.json());
-const PORT=5000 
+const PORT=3000 
 
 
 mongoose.connect("mongodb+srv://priteshherwade2005:priteshherwade2005@cluster0.l7y8l.mongodb.net/backend?retryWrites=true&w=majority&appName=Cluster0").then(
